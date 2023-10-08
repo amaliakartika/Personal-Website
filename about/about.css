@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khula';
+  }
+
+/* Resetting default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 40px; /* Sesuaikan dengan ukuran logo Anda */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Membuat elemen-elemen li rata kiri */
+}
+
+.nav-list li {
+    margin-right: 50px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #084C61;
+    font-weight: 600;
+}
+
+/* Hover effect on links */
+.nav-list a:hover {
+    color: #FFD275; /* Ganti dengan warna yang Anda inginkan */
+}
+
+/* Centered content */
+.container {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about {
+    font-size: 70px;
+    color: #084C61; /* Warna untuk "Amalia" */
+    letter-spacing: -6px; /* Mengurangi jarak antar huruf */
+}
+
+/* Vertical Line */
+.vertical-line {
+    width: 1px;
+    height: 30px; /* Sesuaikan tinggi garis vertikal */
+    background-color: #084C61; /* Warna garis vertikal */
+    position: absolute;
+    top: 180px;
+    bottom: 0;
+    left: 50%; /* Menempatkan garis di tengah horizontal */
+    transform: translateX(-50%); /* Menggeser garis ke tengah */
+}
+
+.vertical-line-bottom {
+    width: 1px;
+    height: 150px; /* Sesuaikan tinggi garis vertikal */
+    background-color: #084C61; /* Warna garis vertikal */
+    bottom: 0;
+    left: 50%; /* Menempatkan garis di tengah horizontal */
+    transform: translateX(-50%); /* Menggeser garis ke tengah */
+}
+
+.foto-tika {
+    margin-top: 50px;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50px;
+    gap: 40px;
+    margin-bottom: 30px;
+    color: #084C61;
+}
+
+.about-me p{
+    margin-bottom: 10px;
+}
+
+.study p{
+    margin-bottom: 10px;
+}
+
+.contact p{
+    margin-bottom: 10px;
+}
+
+.logo-social {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 28px;
+    margin-top: 15px;
+    color: #084C61;
+}
+
+.logo-social i:hover {
+    color: #FFD275;
+}

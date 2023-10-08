@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khula';
+  }
+
+/* Resetting default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 40px; /* Sesuaikan dengan ukuran logo Anda */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Membuat elemen-elemen li rata kiri */
+}
+
+.nav-list li {
+    margin-right: 50px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #084C61;
+    font-weight: 600;
+}
+
+/* Hover effect on links */
+.nav-list a:hover {
+    color: #FFD275; /* Ganti dengan warna yang Anda inginkan */
+}
+
+/* Centered content */
+.container {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blog {
+    font-size: 70px;
+    color: #084C61; /* Warna untuk "Amalia" */
+    letter-spacing: -6px; /* Mengurangi jarak antar huruf */
+}
+
+/* Vertical Line */
+.vertical-line {
+    width: 1px;
+    height: 30px; /* Sesuaikan tinggi garis vertikal */
+    background-color: #084C61; /* Warna garis vertikal */
+    position: absolute;
+    top: 180px;
+    bottom: 0;
+    left: 50%; /* Menempatkan garis di tengah horizontal */
+    transform: translateX(-50%); /* Menggeser garis ke tengah */
+}
+
+.vertical-line-bottom {
+    width: 1px;
+    height: 150px; /* Sesuaikan tinggi garis vertikal */
+    background-color: #084C61; /* Warna garis vertikal */
+    bottom: 0;
+    left: 50%; /* Menempatkan garis di tengah horizontal */
+    transform: translateX(-50%); /* Menggeser garis ke tengah */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #084C61;
+  }
+  
+  .card img {
+    width: 270px;
+    height: 150px;
+    border-radius: 15px;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card h2 {
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  .card p {
+    font-size: 10px;
+    line-height: 1.4;
+    color: #fff;
+  }
+  
+  .card .tanggal-terbit {
+    color: #FFD275;
+    font-size: 0.9rem;
+  }
+  
