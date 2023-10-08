@@ -20,7 +20,7 @@ body, ul {
 }
 
 .logo img {
-    max-width: 40px; /* Sesuaikan dengan ukuran logo Anda */
+    max-width: 40px;
 }
 
 .nav-list {
@@ -28,7 +28,7 @@ body, ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start; /* Membuat elemen-elemen li rata kiri */
+    justify-content: flex-start;
 }
 
 .nav-list li {
@@ -47,7 +47,7 @@ body, ul {
 
 /* Hover effect on links */
 .nav-list a:hover {
-    color: #FFD275; /* Ganti dengan warna yang Anda inginkan */
+    color: #FFD275;
 }
 
 /* Centered content */
@@ -65,29 +65,29 @@ body, ul {
 
 .about {
     font-size: 70px;
-    color: #084C61; /* Warna untuk "Amalia" */
-    letter-spacing: -6px; /* Mengurangi jarak antar huruf */
+    color: #084C61;
+    letter-spacing: -6px;
 }
 
 /* Vertical Line */
 .vertical-line {
     width: 1px;
-    height: 30px; /* Sesuaikan tinggi garis vertikal */
-    background-color: #084C61; /* Warna garis vertikal */
+    height: 30px;
+    background-color: #084C61;
     position: absolute;
     top: 180px;
     bottom: 0;
-    left: 50%; /* Menempatkan garis di tengah horizontal */
-    transform: translateX(-50%); /* Menggeser garis ke tengah */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .vertical-line-bottom {
     width: 1px;
-    height: 150px; /* Sesuaikan tinggi garis vertikal */
-    background-color: #084C61; /* Warna garis vertikal */
+    height: 150px;
+    background-color: #084C61;
     bottom: 0;
-    left: 50%; /* Menempatkan garis di tengah horizontal */
-    transform: translateX(-50%); /* Menggeser garis ke tengah */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .foto-tika {
@@ -117,14 +117,13 @@ body, ul {
     margin-bottom: 10px;
 }
 
-.logo-social {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 28px;
-    margin-top: 15px;
+.sosial .logo-social a i {
     color: #084C61;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 28px;
 }
 
-.logo-social i:hover {
+.sosial .logo-social a i:hover {
     color: #FFD275;
 }
