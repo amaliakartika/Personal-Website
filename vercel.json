@@ -1,0 +1,9 @@
+{
+    "routes": [
+      { "src": "/home", "dest": "/home/index.html" },
+      { "src": "/about", "dest": "/about/index.html" },
+      { "src": "/skill", "dest": "/skill/index.html" },
+      { "src": "/blog", "dest": "/blog/index.html" }
+    ]
+  }
+  
